@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YYRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    YYRootViewController *yyViewController = [[YYRootViewController alloc] initWithNibName:@"YYRootViewControlelre" bundle:nil];
+    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:yyViewController];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

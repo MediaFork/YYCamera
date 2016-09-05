@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YYRootViewController.h
 //  YYCamera
 //
 //  Created by refine on 9/5/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YYRootViewController : UIViewController
 
 @end
-
