@@ -14,7 +14,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *targetImageView;
 
 @property (weak, nonatomic) IBOutlet UIView *bottomView;
-@property (strong, nonatomic) IBOutlet UIView *containnerView;
 
 @end
 
@@ -26,6 +25,18 @@
     self.title = @"照片处理";
     self.targetImageView.image = self.targetImage;
     
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    self.navigationController.navigationBarHidden = YES;
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+    self.navigationController.navigationBarHidden = NO;
 }
 
 #pragma mark - xib click

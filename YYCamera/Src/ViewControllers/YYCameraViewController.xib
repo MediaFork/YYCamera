@@ -8,7 +8,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YYCameraViewController">
             <connections>
                 <outlet property="bottomView" destination="krf-qq-emZ" id="uVO-Yv-Bga"/>
-                <outlet property="containnerView" destination="Rf4-vA-JBa" id="pqu-Zm-xtT"/>
                 <outlet property="targetImageView" destination="QlD-R9-fxV" id="2an-HQ-9Uq"/>
                 <outlet property="view" destination="9Oc-0K-g9w" id="rsn-j1-BjI"/>
             </connections>
@@ -83,55 +82,8 @@
             <nil key="simulatedStatusBarMetrics"/>
             <point key="canvasLocation" x="306" y="306"/>
         </view>
-        <view contentMode="scaleToFill" id="Rf4-vA-JBa">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="145"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <subviews>
-                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aCB-tN-Ax7">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
-                    <subviews>
-                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHg-lg-Fr5">
-                            <rect key="frame" x="130" y="0.0" width="60" height="30"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="60" id="828-jO-iG0"/>
-                                <constraint firstAttribute="height" constant="30" id="KwS-mJ-Bb9"/>
-                            </constraints>
-                            <inset key="contentEdgeInsets" minX="16" minY="1" maxX="16" maxY="1"/>
-                            <state key="normal" image="down.png">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="hideBtnAction:" destination="-1" eventType="touchUpInside" id="gpa-pa-xbZ"/>
-                            </connections>
-                        </button>
-                    </subviews>
-                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <constraints>
-                        <constraint firstItem="uHg-lg-Fr5" firstAttribute="top" secondItem="aCB-tN-Ax7" secondAttribute="top" id="NOe-8z-bQA"/>
-                        <constraint firstItem="uHg-lg-Fr5" firstAttribute="centerX" secondItem="aCB-tN-Ax7" secondAttribute="centerX" id="m7C-BR-ctr"/>
-                        <constraint firstAttribute="height" constant="30" id="yIT-79-h8c"/>
-                    </constraints>
-                </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="em0-GL-mTV">
-                    <rect key="frame" x="0.0" y="30" width="320" height="115"/>
-                    <color key="backgroundColor" red="0.0" green="0.2901960784" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
-            </subviews>
-            <constraints>
-                <constraint firstItem="em0-GL-mTV" firstAttribute="top" secondItem="aCB-tN-Ax7" secondAttribute="bottom" id="SbZ-yD-YnQ"/>
-                <constraint firstItem="em0-GL-mTV" firstAttribute="leading" secondItem="Rf4-vA-JBa" secondAttribute="leading" id="Ubn-lW-s9p"/>
-                <constraint firstAttribute="trailing" secondItem="aCB-tN-Ax7" secondAttribute="trailing" id="XdD-Jd-Uo2"/>
-                <constraint firstAttribute="bottom" secondItem="em0-GL-mTV" secondAttribute="bottom" id="ZZh-8d-p8s"/>
-                <constraint firstItem="aCB-tN-Ax7" firstAttribute="leading" secondItem="Rf4-vA-JBa" secondAttribute="leading" id="mv2-0P-m6O"/>
-                <constraint firstAttribute="trailing" secondItem="em0-GL-mTV" secondAttribute="trailing" id="nrM-VA-yS1"/>
-                <constraint firstItem="aCB-tN-Ax7" firstAttribute="top" secondItem="Rf4-vA-JBa" secondAttribute="top" id="zin-gu-93c"/>
-            </constraints>
-            <nil key="simulatedStatusBarMetrics"/>
-            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-        </view>
     </objects>
     <resources>
         <image name="back.png" width="32" height="32"/>
-        <image name="down.png" width="32" height="32"/>
     </resources>
 </document>

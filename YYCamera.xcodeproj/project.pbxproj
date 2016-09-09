@@ -8,7 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		590F518A1D82636C00B30AD5 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51881D82636C00B30AD5 /* back.png */; };
-		590F518B1D82636C00B30AD5 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51891D82636C00B30AD5 /* down.png */; };
+		590F51961D8286BD00B30AD5 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F518D1D8286BD00B30AD5 /* fish.png */; };
+		590F51971D8286BD00B30AD5 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F518E1D8286BD00B30AD5 /* elephant.png */; };
+		590F51981D8286BD00B30AD5 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F518F1D8286BD00B30AD5 /* cat.png */; };
+		590F51991D8286BD00B30AD5 /* clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51901D8286BD00B30AD5 /* clothes.png */; };
+		590F519A1D8286BD00B30AD5 /* bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51911D8286BD00B30AD5 /* bag.png */; };
+		590F519B1D8286BD00B30AD5 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51921D8286BD00B30AD5 /* apple.png */; };
+		590F519C1D8286BD00B30AD5 /* fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51931D8286BD00B30AD5 /* fruit.png */; };
+		590F519D1D8286BD00B30AD5 /* dress.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51941D8286BD00B30AD5 /* dress.png */; };
+		590F519E1D8286BD00B30AD5 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51951D8286BD00B30AD5 /* smile.png */; };
 		5914ED611D8010BC00121B89 /* YYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914ED5D1D8010BC00121B89 /* YYRootViewController.m */; };
 		5914ED621D8010BC00121B89 /* YYRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5914ED5E1D8010BC00121B89 /* YYRootViewController.xib */; };
 		5914ED651D80110300121B89 /* YYCameraAndPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914ED641D80110300121B89 /* YYCameraAndPhoto.m */; };
@@ -24,7 +32,15 @@
 
 /* Begin PBXFileReference section */
 		590F51881D82636C00B30AD5 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		590F51891D82636C00B30AD5 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		590F518D1D8286BD00B30AD5 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		590F518E1D8286BD00B30AD5 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		590F518F1D8286BD00B30AD5 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		590F51901D8286BD00B30AD5 /* clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothes.png; sourceTree = "<group>"; };
+		590F51911D8286BD00B30AD5 /* bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bag.png; sourceTree = "<group>"; };
+		590F51921D8286BD00B30AD5 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		590F51931D8286BD00B30AD5 /* fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruit.png; sourceTree = "<group>"; };
+		590F51941D8286BD00B30AD5 /* dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress.png; sourceTree = "<group>"; };
+		590F51951D8286BD00B30AD5 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		5914ED5C1D8010BC00121B89 /* YYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRootViewController.h; sourceTree = "<group>"; };
 		5914ED5D1D8010BC00121B89 /* YYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRootViewController.m; sourceTree = "<group>"; };
 		5914ED5E1D8010BC00121B89 /* YYRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYRootViewController.xib; sourceTree = "<group>"; };
@@ -56,6 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		590F518C1D8267E800B30AD5 /* stickers */ = {
+			isa = PBXGroup;
+			children = (
+				590F518D1D8286BD00B30AD5 /* fish.png */,
+				590F518E1D8286BD00B30AD5 /* elephant.png */,
+				590F518F1D8286BD00B30AD5 /* cat.png */,
+				590F51901D8286BD00B30AD5 /* clothes.png */,
+				590F51911D8286BD00B30AD5 /* bag.png */,
+				590F51921D8286BD00B30AD5 /* apple.png */,
+				590F51931D8286BD00B30AD5 /* fruit.png */,
+				590F51941D8286BD00B30AD5 /* dress.png */,
+				590F51951D8286BD00B30AD5 /* smile.png */,
+			);
+			path = stickers;
+			sourceTree = "<group>";
+		};
 		5914ED551D8010BC00121B89 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +108,8 @@
 		5914ED571D8010BC00121B89 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				590F518C1D8267E800B30AD5 /* stickers */,
 				590F51881D82636C00B30AD5 /* back.png */,
-				590F51891D82636C00B30AD5 /* down.png */,
 				5914ED661D8015AD00121B89 /* xiangce.png */,
 				5914ED671D8015AD00121B89 /* xuanzhuan.png */,
 			);
@@ -211,12 +243,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590F51981D8286BD00B30AD5 /* cat.png in Resources */,
 				59B502BC1D7D4B75007DC0E6 /* LaunchScreen.storyboard in Resources */,
+				590F519D1D8286BD00B30AD5 /* dress.png in Resources */,
 				5914ED681D8015AD00121B89 /* xiangce.png in Resources */,
 				5914ED691D8015AD00121B89 /* xuanzhuan.png in Resources */,
-				590F518B1D82636C00B30AD5 /* down.png in Resources */,
+				590F519B1D8286BD00B30AD5 /* apple.png in Resources */,
+				590F51961D8286BD00B30AD5 /* fish.png in Resources */,
+				590F519E1D8286BD00B30AD5 /* smile.png in Resources */,
+				590F519A1D8286BD00B30AD5 /* bag.png in Resources */,
+				590F519C1D8286BD00B30AD5 /* fruit.png in Resources */,
 				59B502B91D7D4B75007DC0E6 /* Assets.xcassets in Resources */,
 				590F518A1D82636C00B30AD5 /* back.png in Resources */,
+				590F51991D8286BD00B30AD5 /* clothes.png in Resources */,
+				590F51971D8286BD00B30AD5 /* elephant.png in Resources */,
 				5914ED621D8010BC00121B89 /* YYRootViewController.xib in Resources */,
 				59C3DA681D8112EA001F34D2 /* YYCameraViewController.xib in Resources */,
 			);
