@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    YYRootViewController *yyViewController = [[YYRootViewController alloc] initWithNibName:@"YYRootViewControlelre" bundle:nil];
+    YYRootViewController *yyViewController = [[YYRootViewController alloc] initWithNibName:@"YYRootViewController" bundle:nil];
     UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:yyViewController];
     self.window.rootViewController = rootNav;
     [self.window makeKeyAndVisible];

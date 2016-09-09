@@ -7,25 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590F518A1D82636C00B30AD5 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51881D82636C00B30AD5 /* back.png */; };
+		590F518B1D82636C00B30AD5 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51891D82636C00B30AD5 /* down.png */; };
+		5914ED611D8010BC00121B89 /* YYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914ED5D1D8010BC00121B89 /* YYRootViewController.m */; };
+		5914ED621D8010BC00121B89 /* YYRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5914ED5E1D8010BC00121B89 /* YYRootViewController.xib */; };
+		5914ED651D80110300121B89 /* YYCameraAndPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914ED641D80110300121B89 /* YYCameraAndPhoto.m */; };
+		5914ED681D8015AD00121B89 /* xiangce.png in Resources */ = {isa = PBXBuildFile; fileRef = 5914ED661D8015AD00121B89 /* xiangce.png */; };
+		5914ED691D8015AD00121B89 /* xuanzhuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5914ED671D8015AD00121B89 /* xuanzhuan.png */; };
 		59B502AE1D7D4B75007DC0E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B502AD1D7D4B75007DC0E6 /* main.m */; };
 		59B502B11D7D4B75007DC0E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B502B01D7D4B75007DC0E6 /* AppDelegate.m */; };
 		59B502B91D7D4B75007DC0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B502B81D7D4B75007DC0E6 /* Assets.xcassets */; };
 		59B502BC1D7D4B75007DC0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B502BA1D7D4B75007DC0E6 /* LaunchScreen.storyboard */; };
-		59B502C91D7D4BF9007DC0E6 /* YYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B502C71D7D4BF9007DC0E6 /* YYRootViewController.m */; };
-		59B502CA1D7D4BF9007DC0E6 /* YYRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59B502C81D7D4BF9007DC0E6 /* YYRootViewController.xib */; };
+		59C3DA661D8112DE001F34D2 /* YYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C3DA651D8112DE001F34D2 /* YYCameraViewController.m */; };
+		59C3DA681D8112EA001F34D2 /* YYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C3DA671D8112EA001F34D2 /* YYCameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590F51881D82636C00B30AD5 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		590F51891D82636C00B30AD5 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		5914ED5C1D8010BC00121B89 /* YYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRootViewController.h; sourceTree = "<group>"; };
+		5914ED5D1D8010BC00121B89 /* YYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRootViewController.m; sourceTree = "<group>"; };
+		5914ED5E1D8010BC00121B89 /* YYRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYRootViewController.xib; sourceTree = "<group>"; };
+		5914ED631D80110300121B89 /* YYCameraAndPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCameraAndPhoto.h; sourceTree = "<group>"; };
+		5914ED641D80110300121B89 /* YYCameraAndPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCameraAndPhoto.m; sourceTree = "<group>"; };
+		5914ED661D8015AD00121B89 /* xiangce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiangce.png; sourceTree = "<group>"; };
+		5914ED671D8015AD00121B89 /* xuanzhuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuanzhuan.png; sourceTree = "<group>"; };
+		5914ED6B1D801C8700121B89 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		59B502A91D7D4B75007DC0E6 /* YYCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B502AD1D7D4B75007DC0E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59B502AF1D7D4B75007DC0E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		59B502B01D7D4B75007DC0E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59B502AF1D7D4B75007DC0E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		59B502B01D7D4B75007DC0E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		59B502B81D7D4B75007DC0E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59B502BB1D7D4B75007DC0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59B502BD1D7D4B75007DC0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59B502C61D7D4BF9007DC0E6 /* YYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRootViewController.h; sourceTree = "<group>"; };
-		59B502C71D7D4BF9007DC0E6 /* YYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRootViewController.m; sourceTree = "<group>"; };
-		59B502C81D7D4BF9007DC0E6 /* YYRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYRootViewController.xib; sourceTree = "<group>"; };
+		59C3DA641D8112DE001F34D2 /* YYCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCameraViewController.h; sourceTree = "<group>"; };
+		59C3DA651D8112DE001F34D2 /* YYCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCameraViewController.m; sourceTree = "<group>"; };
+		59C3DA671D8112EA001F34D2 /* YYCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +56,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5914ED551D8010BC00121B89 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				59B502AF1D7D4B75007DC0E6 /* AppDelegate.h */,
+				59B502B01D7D4B75007DC0E6 /* AppDelegate.m */,
+				5914ED6B1D801C8700121B89 /* config.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5914ED561D8010BC00121B89 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		5914ED571D8010BC00121B89 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				590F51881D82636C00B30AD5 /* back.png */,
+				590F51891D82636C00B30AD5 /* down.png */,
+				5914ED661D8015AD00121B89 /* xiangce.png */,
+				5914ED671D8015AD00121B89 /* xuanzhuan.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5914ED5A1D8010BC00121B89 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5914ED631D80110300121B89 /* YYCameraAndPhoto.h */,
+				5914ED641D80110300121B89 /* YYCameraAndPhoto.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5914ED5B1D8010BC00121B89 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5914ED5C1D8010BC00121B89 /* YYRootViewController.h */,
+				5914ED5D1D8010BC00121B89 /* YYRootViewController.m */,
+				5914ED5E1D8010BC00121B89 /* YYRootViewController.xib */,
+				59C3DA641D8112DE001F34D2 /* YYCameraViewController.h */,
+				59C3DA651D8112DE001F34D2 /* YYCameraViewController.m */,
+				59C3DA671D8112EA001F34D2 /* YYCameraViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		59B502A01D7D4B75007DC0E6 = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				59B502C31D7D4BDF007DC0E6 /* Src */,
-				59B502AF1D7D4B75007DC0E6 /* AppDelegate.h */,
-				59B502B01D7D4B75007DC0E6 /* AppDelegate.m */,
 				59B502AC1D7D4B75007DC0E6 /* Supporting Files */,
 			);
 			path = YYCamera;
@@ -80,27 +145,13 @@
 		59B502C31D7D4BDF007DC0E6 /* Src */ = {
 			isa = PBXGroup;
 			children = (
-				59B502C41D7D4BDF007DC0E6 /* CustomView */,
-				59B502C51D7D4BDF007DC0E6 /* Images */,
-				59B502C61D7D4BF9007DC0E6 /* YYRootViewController.h */,
-				59B502C71D7D4BF9007DC0E6 /* YYRootViewController.m */,
-				59B502C81D7D4BF9007DC0E6 /* YYRootViewController.xib */,
+				5914ED551D8010BC00121B89 /* App */,
+				5914ED561D8010BC00121B89 /* CustomViews */,
+				5914ED571D8010BC00121B89 /* Images */,
+				5914ED5A1D8010BC00121B89 /* Utils */,
+				5914ED5B1D8010BC00121B89 /* ViewControllers */,
 			);
 			path = Src;
-			sourceTree = "<group>";
-		};
-		59B502C41D7D4BDF007DC0E6 /* CustomView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomView;
-			sourceTree = "<group>";
-		};
-		59B502C51D7D4BDF007DC0E6 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +212,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				59B502BC1D7D4B75007DC0E6 /* LaunchScreen.storyboard in Resources */,
+				5914ED681D8015AD00121B89 /* xiangce.png in Resources */,
+				5914ED691D8015AD00121B89 /* xuanzhuan.png in Resources */,
+				590F518B1D82636C00B30AD5 /* down.png in Resources */,
 				59B502B91D7D4B75007DC0E6 /* Assets.xcassets in Resources */,
-				59B502CA1D7D4BF9007DC0E6 /* YYRootViewController.xib in Resources */,
+				590F518A1D82636C00B30AD5 /* back.png in Resources */,
+				5914ED621D8010BC00121B89 /* YYRootViewController.xib in Resources */,
+				59C3DA681D8112EA001F34D2 /* YYCameraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B502C91D7D4BF9007DC0E6 /* YYRootViewController.m in Sources */,
 				59B502B11D7D4B75007DC0E6 /* AppDelegate.m in Sources */,
+				5914ED651D80110300121B89 /* YYCameraAndPhoto.m in Sources */,
+				5914ED611D8010BC00121B89 /* YYRootViewController.m in Sources */,
+				59C3DA661D8112DE001F34D2 /* YYCameraViewController.m in Sources */,
 				59B502AE1D7D4B75007DC0E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YYCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobi.refine.YYCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YYCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobi.refine.YYCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +376,7 @@
 				59B502C21D7D4B75007DC0E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
