@@ -42,7 +42,7 @@ static NSString *const stickerIdentifier = @"StickerIdentifier";
     [super viewDidLoad];
     self.title = @"照片处理";
     self.targetImageView.image = self.targetImage;
-    self.stickerArray = @[@"fish", @"elephant", @"cat", @"clothes", @"bag",
+    self.stickerArray = @[@"elephant", @"cat", @"clothes", @"bag",
                           @"apple", @"fruit", @"dress", @"smile"];
     [self.collectionView registerNib:[UINib nibWithNibName:@"StickerCell" bundle:nil] forCellWithReuseIdentifier:stickerIdentifier];
     self.filterButton.selected = YES;
