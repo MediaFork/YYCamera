@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B67A081DC883CD007B5644 /* FilterScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B67A071DC883CD007B5644 /* FilterScrollView.m */; };
+		14B67A0A1DC884C6007B5644 /* StickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A091DC884C6007B5644 /* StickerCell.xib */; };
+		14B67A0E1DC8B274007B5644 /* UIView+RFSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B67A0D1DC8B274007B5644 /* UIView+RFSize.m */; };
+		14B67A121DC8B2EE007B5644 /* UIImage+RFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B67A111DC8B2EE007B5644 /* UIImage+RFUtility.m */; };
+		14B67A171DC9C562007B5644 /* RFStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B67A151DC9C562007B5644 /* RFStickerView.m */; };
+		14B67A181DC9C562007B5644 /* RFStickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A161DC9C562007B5644 /* RFStickerView.xib */; };
+		14B67A1C1DC9C5AC007B5644 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B67A1B1DC9C5AC007B5644 /* BorderView.m */; };
+		14B67A231DC9C9FD007B5644 /* jiantou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A1D1DC9C9FD007B5644 /* jiantou@2x.png */; };
+		14B67A241DC9C9FD007B5644 /* jiantou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A1E1DC9C9FD007B5644 /* jiantou@3x.png */; };
+		14B67A251DC9C9FD007B5644 /* laji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A1F1DC9C9FD007B5644 /* laji@2x.png */; };
+		14B67A261DC9C9FD007B5644 /* laji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A201DC9C9FD007B5644 /* laji@3x.png */; };
+		14B67A271DC9C9FD007B5644 /* xuanzhuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A211DC9C9FD007B5644 /* xuanzhuan@2x.png */; };
+		14B67A281DC9C9FD007B5644 /* xuanzhuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A221DC9C9FD007B5644 /* xuanzhuan@3x.png */; };
+		14B67A2C1DC9CA47007B5644 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B67A2A1DC9CA47007B5644 /* NextViewController.m */; };
+		14B67A2D1DC9CA47007B5644 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B67A2B1DC9CA47007B5644 /* NextViewController.xib */; };
 		590F518A1D82636C00B30AD5 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F51881D82636C00B30AD5 /* back.png */; };
 		590F51961D8286BD00B30AD5 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F518D1D8286BD00B30AD5 /* fish.png */; };
 		590F51971D8286BD00B30AD5 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 590F518E1D8286BD00B30AD5 /* elephant.png */; };
@@ -21,7 +36,7 @@
 		5914ED621D8010BC00121B89 /* YYRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5914ED5E1D8010BC00121B89 /* YYRootViewController.xib */; };
 		5914ED651D80110300121B89 /* YYCameraAndPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914ED641D80110300121B89 /* YYCameraAndPhoto.m */; };
 		5914ED681D8015AD00121B89 /* xiangce.png in Resources */ = {isa = PBXBuildFile; fileRef = 5914ED661D8015AD00121B89 /* xiangce.png */; };
-		5914ED691D8015AD00121B89 /* xuanzhuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5914ED671D8015AD00121B89 /* xuanzhuan.png */; };
+		5914ED691D8015AD00121B89 /* change.png in Resources */ = {isa = PBXBuildFile; fileRef = 5914ED671D8015AD00121B89 /* change.png */; };
 		59B502AE1D7D4B75007DC0E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B502AD1D7D4B75007DC0E6 /* main.m */; };
 		59B502B11D7D4B75007DC0E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B502B01D7D4B75007DC0E6 /* AppDelegate.m */; };
 		59B502B91D7D4B75007DC0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B502B81D7D4B75007DC0E6 /* Assets.xcassets */; };
@@ -31,6 +46,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14B67A061DC883CD007B5644 /* FilterScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterScrollView.h; sourceTree = "<group>"; };
+		14B67A071DC883CD007B5644 /* FilterScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterScrollView.m; sourceTree = "<group>"; };
+		14B67A091DC884C6007B5644 /* StickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickerCell.xib; sourceTree = "<group>"; };
+		14B67A0C1DC8B274007B5644 /* UIView+RFSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFSize.h"; sourceTree = "<group>"; };
+		14B67A0D1DC8B274007B5644 /* UIView+RFSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RFSize.m"; sourceTree = "<group>"; };
+		14B67A101DC8B2EE007B5644 /* UIImage+RFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RFUtility.h"; sourceTree = "<group>"; };
+		14B67A111DC8B2EE007B5644 /* UIImage+RFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RFUtility.m"; sourceTree = "<group>"; };
+		14B67A141DC9C562007B5644 /* RFStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFStickerView.h; sourceTree = "<group>"; };
+		14B67A151DC9C562007B5644 /* RFStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFStickerView.m; sourceTree = "<group>"; };
+		14B67A161DC9C562007B5644 /* RFStickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFStickerView.xib; sourceTree = "<group>"; };
+		14B67A1A1DC9C5AC007B5644 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderView.h; sourceTree = "<group>"; };
+		14B67A1B1DC9C5AC007B5644 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderView.m; sourceTree = "<group>"; };
+		14B67A1D1DC9C9FD007B5644 /* jiantou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiantou@2x.png"; sourceTree = "<group>"; };
+		14B67A1E1DC9C9FD007B5644 /* jiantou@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiantou@3x.png"; sourceTree = "<group>"; };
+		14B67A1F1DC9C9FD007B5644 /* laji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laji@2x.png"; sourceTree = "<group>"; };
+		14B67A201DC9C9FD007B5644 /* laji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laji@3x.png"; sourceTree = "<group>"; };
+		14B67A211DC9C9FD007B5644 /* xuanzhuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xuanzhuan@2x.png"; sourceTree = "<group>"; };
+		14B67A221DC9C9FD007B5644 /* xuanzhuan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xuanzhuan@3x.png"; sourceTree = "<group>"; };
+		14B67A291DC9CA47007B5644 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		14B67A2A1DC9CA47007B5644 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		14B67A2B1DC9CA47007B5644 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		590F51881D82636C00B30AD5 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		590F518D1D8286BD00B30AD5 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
 		590F518E1D8286BD00B30AD5 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
@@ -47,7 +83,7 @@
 		5914ED631D80110300121B89 /* YYCameraAndPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCameraAndPhoto.h; sourceTree = "<group>"; };
 		5914ED641D80110300121B89 /* YYCameraAndPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCameraAndPhoto.m; sourceTree = "<group>"; };
 		5914ED661D8015AD00121B89 /* xiangce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiangce.png; sourceTree = "<group>"; };
-		5914ED671D8015AD00121B89 /* xuanzhuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuanzhuan.png; sourceTree = "<group>"; };
+		5914ED671D8015AD00121B89 /* change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change.png; sourceTree = "<group>"; };
 		5914ED6B1D801C8700121B89 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		59B502A91D7D4B75007DC0E6 /* YYCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B502AD1D7D4B75007DC0E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +108,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B67A021DC883A9007B5644 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				14B67A061DC883CD007B5644 /* FilterScrollView.h */,
+				14B67A071DC883CD007B5644 /* FilterScrollView.m */,
+				14B67A091DC884C6007B5644 /* StickerCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		14B67A0B1DC8B274007B5644 /* UIViewExtense */ = {
+			isa = PBXGroup;
+			children = (
+				14B67A0C1DC8B274007B5644 /* UIView+RFSize.h */,
+				14B67A0D1DC8B274007B5644 /* UIView+RFSize.m */,
+			);
+			path = UIViewExtense;
+			sourceTree = "<group>";
+		};
+		14B67A0F1DC8B2EE007B5644 /* UIImageUtility */ = {
+			isa = PBXGroup;
+			children = (
+				14B67A101DC8B2EE007B5644 /* UIImage+RFUtility.h */,
+				14B67A111DC8B2EE007B5644 /* UIImage+RFUtility.m */,
+			);
+			path = UIImageUtility;
+			sourceTree = "<group>";
+		};
+		14B67A131DC9C562007B5644 /* RFStickerView */ = {
+			isa = PBXGroup;
+			children = (
+				14B67A141DC9C562007B5644 /* RFStickerView.h */,
+				14B67A151DC9C562007B5644 /* RFStickerView.m */,
+				14B67A161DC9C562007B5644 /* RFStickerView.xib */,
+			);
+			path = RFStickerView;
+			sourceTree = "<group>";
+		};
+		14B67A191DC9C5AC007B5644 /* BorderView */ = {
+			isa = PBXGroup;
+			children = (
+				14B67A1A1DC9C5AC007B5644 /* BorderView.h */,
+				14B67A1B1DC9C5AC007B5644 /* BorderView.m */,
+			);
+			path = BorderView;
+			sourceTree = "<group>";
+		};
 		590F518C1D8267E800B30AD5 /* stickers */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,20 +181,19 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		5914ED561D8010BC00121B89 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomViews;
-			sourceTree = "<group>";
-		};
 		5914ED571D8010BC00121B89 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				14B67A1D1DC9C9FD007B5644 /* jiantou@2x.png */,
+				14B67A1E1DC9C9FD007B5644 /* jiantou@3x.png */,
+				14B67A1F1DC9C9FD007B5644 /* laji@2x.png */,
+				14B67A201DC9C9FD007B5644 /* laji@3x.png */,
+				14B67A211DC9C9FD007B5644 /* xuanzhuan@2x.png */,
+				14B67A221DC9C9FD007B5644 /* xuanzhuan@3x.png */,
 				590F518C1D8267E800B30AD5 /* stickers */,
 				590F51881D82636C00B30AD5 /* back.png */,
 				5914ED661D8015AD00121B89 /* xiangce.png */,
-				5914ED671D8015AD00121B89 /* xuanzhuan.png */,
+				5914ED671D8015AD00121B89 /* change.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -119,6 +201,10 @@
 		5914ED5A1D8010BC00121B89 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				14B67A191DC9C5AC007B5644 /* BorderView */,
+				14B67A131DC9C562007B5644 /* RFStickerView */,
+				14B67A0F1DC8B2EE007B5644 /* UIImageUtility */,
+				14B67A0B1DC8B274007B5644 /* UIViewExtense */,
 				5914ED631D80110300121B89 /* YYCameraAndPhoto.h */,
 				5914ED641D80110300121B89 /* YYCameraAndPhoto.m */,
 			);
@@ -134,6 +220,9 @@
 				59C3DA641D8112DE001F34D2 /* YYCameraViewController.h */,
 				59C3DA651D8112DE001F34D2 /* YYCameraViewController.m */,
 				59C3DA671D8112EA001F34D2 /* YYCameraViewController.xib */,
+				14B67A291DC9CA47007B5644 /* NextViewController.h */,
+				14B67A2A1DC9CA47007B5644 /* NextViewController.m */,
+				14B67A2B1DC9CA47007B5644 /* NextViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -177,8 +266,8 @@
 		59B502C31D7D4BDF007DC0E6 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				14B67A021DC883A9007B5644 /* CustomView */,
 				5914ED551D8010BC00121B89 /* App */,
-				5914ED561D8010BC00121B89 /* CustomViews */,
 				5914ED571D8010BC00121B89 /* Images */,
 				5914ED5A1D8010BC00121B89 /* Utils */,
 				5914ED5B1D8010BC00121B89 /* ViewControllers */,
@@ -217,6 +306,7 @@
 				TargetAttributes = {
 					59B502A81D7D4B75007DC0E6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EM5VGKG646;
 					};
 				};
 			};
@@ -245,15 +335,24 @@
 			files = (
 				590F51981D8286BD00B30AD5 /* cat.png in Resources */,
 				59B502BC1D7D4B75007DC0E6 /* LaunchScreen.storyboard in Resources */,
+				14B67A0A1DC884C6007B5644 /* StickerCell.xib in Resources */,
+				14B67A251DC9C9FD007B5644 /* laji@2x.png in Resources */,
 				590F519D1D8286BD00B30AD5 /* dress.png in Resources */,
+				14B67A181DC9C562007B5644 /* RFStickerView.xib in Resources */,
+				14B67A271DC9C9FD007B5644 /* xuanzhuan@2x.png in Resources */,
 				5914ED681D8015AD00121B89 /* xiangce.png in Resources */,
-				5914ED691D8015AD00121B89 /* xuanzhuan.png in Resources */,
+				14B67A281DC9C9FD007B5644 /* xuanzhuan@3x.png in Resources */,
+				5914ED691D8015AD00121B89 /* change.png in Resources */,
 				590F519B1D8286BD00B30AD5 /* apple.png in Resources */,
+				14B67A261DC9C9FD007B5644 /* laji@3x.png in Resources */,
 				590F51961D8286BD00B30AD5 /* fish.png in Resources */,
 				590F519E1D8286BD00B30AD5 /* smile.png in Resources */,
+				14B67A241DC9C9FD007B5644 /* jiantou@3x.png in Resources */,
 				590F519A1D8286BD00B30AD5 /* bag.png in Resources */,
+				14B67A231DC9C9FD007B5644 /* jiantou@2x.png in Resources */,
 				590F519C1D8286BD00B30AD5 /* fruit.png in Resources */,
 				59B502B91D7D4B75007DC0E6 /* Assets.xcassets in Resources */,
+				14B67A2D1DC9CA47007B5644 /* NextViewController.xib in Resources */,
 				590F518A1D82636C00B30AD5 /* back.png in Resources */,
 				590F51991D8286BD00B30AD5 /* clothes.png in Resources */,
 				590F51971D8286BD00B30AD5 /* elephant.png in Resources */,
@@ -270,9 +369,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				59B502B11D7D4B75007DC0E6 /* AppDelegate.m in Sources */,
+				14B67A081DC883CD007B5644 /* FilterScrollView.m in Sources */,
+				14B67A1C1DC9C5AC007B5644 /* BorderView.m in Sources */,
+				14B67A0E1DC8B274007B5644 /* UIView+RFSize.m in Sources */,
+				14B67A2C1DC9CA47007B5644 /* NextViewController.m in Sources */,
 				5914ED651D80110300121B89 /* YYCameraAndPhoto.m in Sources */,
 				5914ED611D8010BC00121B89 /* YYRootViewController.m in Sources */,
+				14B67A171DC9C562007B5644 /* RFStickerView.m in Sources */,
 				59C3DA661D8112DE001F34D2 /* YYCameraViewController.m in Sources */,
+				14B67A121DC8B2EE007B5644 /* UIImage+RFUtility.m in Sources */,
 				59B502AE1D7D4B75007DC0E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EM5VGKG646;
 				INFOPLIST_FILE = YYCamera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -389,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EM5VGKG646;
 				INFOPLIST_FILE = YYCamera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
