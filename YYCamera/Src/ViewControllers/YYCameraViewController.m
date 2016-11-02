@@ -3,9 +3,9 @@
 //  YYCameraViewController.m
 //  YYCamera
 //
-//  Created by refine on 9/8/16.
-//  Copyright © 2016 refine. All rights reserved.
-//
+//  Created by Saborka on 2/11/2016.
+//  Copyright © 2016 Saborka. All rights reserved.
+//  github: https://github.com/Saborka/YYCamera
 
 #import "YYCameraViewController.h"
 #import "FilterScrollView.h"
@@ -95,7 +95,7 @@ static NSString *const stickerIdentifier = @"StickerIdentifier";
 
 - (void)createStickerViewWithImage:(NSString *)imageName
 {
-    RFStickerView *stickView = [[RFStickerView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    RFStickerView *stickView = [[RFStickerView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     stickView.backgroundColor = [UIColor clearColor];
     stickView.contentImageView.image = [UIImage imageNamed:imageName];
     [self.stickTipsDisplayView addSubview:stickView];

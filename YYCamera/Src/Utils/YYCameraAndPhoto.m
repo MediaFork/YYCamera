@@ -3,9 +3,9 @@
 //  YYCameraAndPhoto.m
 //  YYCamera
 //
-//  Created by refine on 9/7/16.
-//  Copyright © 2016 refine. All rights reserved.
-//
+//  Created by Saborka on 2/11/2016.
+//  Copyright © 2016 Saborka. All rights reserved.
+//  github: https://github.com/Saborka/YYCamera
 
 #import "YYCameraAndPhoto.h"
 #import <MobileCoreServices/MobileCoreServices.h>

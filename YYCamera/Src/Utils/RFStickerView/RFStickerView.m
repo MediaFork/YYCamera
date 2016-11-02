@@ -3,9 +3,9 @@
 //  RFStickerView.m
 //  tujiao
 //
-//  Created by Arvin on 15/11/30.
-//  Copyright © 2015年 mobi.refine. All rights reserved.
-//
+//  Created by Saborka on 2/11/2016.
+//  Copyright © 2016 Saborka. All rights reserved.
+//  github: https://github.com/Saborka/YYCamera
 
 #import "RFStickerView.h"
 #import "BorderView.h"

@@ -3,8 +3,8 @@
 //  YYCamera
 //
 //  Created by Saborka on 2/11/2016.
-//  Copyright © 2016 refine. All rights reserved.
-//
+//  Copyright © 2016 Saborka. All rights reserved.
+//  github: https://github.com/Saborka/YYCamera
 
 #import "NextViewController.h"
 
@@ -44,7 +44,7 @@
     if (error) {
         
     } else {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"成功保存到相册" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"成功保存到相册" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
         [alert show];
     }
 }
