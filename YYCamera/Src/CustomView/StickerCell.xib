@@ -18,16 +18,16 @@
                 <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="elephant.png" translatesAutoresizingMaskIntoConstraints="NO" id="MCI-zw-cNA">
-                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                    <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="elephant.png" translatesAutoresizingMaskIntoConstraints="NO" id="MCI-zw-cNA">
+                        <rect key="frame" x="10" y="10" width="90" height="90"/>
                     </imageView>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="MCI-zw-cNA" secondAttribute="trailing" id="0Vm-qz-0Hz"/>
-                <constraint firstItem="MCI-zw-cNA" firstAttribute="leading" secondItem="9ae-cs-QmQ" secondAttribute="leading" id="GPf-da-9Fs"/>
-                <constraint firstItem="MCI-zw-cNA" firstAttribute="top" secondItem="9ae-cs-QmQ" secondAttribute="top" id="iDr-34-zxk"/>
-                <constraint firstAttribute="bottom" secondItem="MCI-zw-cNA" secondAttribute="bottom" id="v8J-QJ-ahO"/>
+                <constraint firstAttribute="trailing" secondItem="MCI-zw-cNA" secondAttribute="trailing" constant="10" id="0Vm-qz-0Hz"/>
+                <constraint firstItem="MCI-zw-cNA" firstAttribute="leading" secondItem="9ae-cs-QmQ" secondAttribute="leading" constant="10" id="GPf-da-9Fs"/>
+                <constraint firstItem="MCI-zw-cNA" firstAttribute="top" secondItem="9ae-cs-QmQ" secondAttribute="top" constant="10" id="iDr-34-zxk"/>
+                <constraint firstAttribute="bottom" secondItem="MCI-zw-cNA" secondAttribute="bottom" constant="10" id="v8J-QJ-ahO"/>
             </constraints>
             <point key="canvasLocation" x="29" y="20"/>
         </collectionViewCell>

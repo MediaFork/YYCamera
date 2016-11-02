@@ -17,4 +17,5 @@
 
 + (UIImage *)getScreenShotWithView:(UIView *)view isFullSize:(BOOL)isFullSize;
 
++ (UIImage *)getImageFromImage:(UIImage*) superImage subImageSize:(CGSize)subImageSize subImageRect:(CGRect)subImageRect;
 @end

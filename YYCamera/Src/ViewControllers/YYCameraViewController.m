@@ -111,10 +111,18 @@ static NSString *const stickerIdentifier = @"StickerIdentifier";
     }];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self hideAllStickViewCustomView];
+}
+
 #pragma mark - xib click
 
 - (IBAction)filterBtnAction:(UIButton *)sender
 {
+    if (sender.isSelected) {
+        return;
+    }
     sender.selected = !sender.selected;
     if (sender.isSelected) {
         self.stickerButton.selected = NO;
@@ -124,6 +132,9 @@ static NSString *const stickerIdentifier = @"StickerIdentifier";
 
 - (IBAction)stickerBtnAction:(UIButton *)sender
 {
+    if (sender.isSelected) {
+        return;
+    }
     sender.selected = !sender.selected;
     if (sender.isSelected) {
         self.filterButton.selected = NO;
@@ -134,7 +145,9 @@ static NSString *const stickerIdentifier = @"StickerIdentifier";
 - (IBAction)nextBtnAction:(id)sender
 {
     [self hideAllStickViewCustomView];
-    UIImage *saveImage = [YYCameraAndPhoto getScreenShotWithView:self.stickTipsDisplayView isFullSize:NO];
+    self.bottomView.hidden = YES;
+    UIImage *saveImage = [YYCameraAndPhoto getScreenShotWithView:self.view isFullSize:NO];
+    saveImage = [YYCameraAndPhoto getImageFromImage:saveImage subImageSize:self.targetImageView.frame.size subImageRect:CGRectMake(self.targetImageView.frame.origin.x * 2 , self.targetImageView.frame.origin.y * 2 , self.targetImageView.frame.size.width * 2 , self.targetImageView.frame.size.height * 2 )];
     NextViewController *next = [[NextViewController alloc] initWithNibName:@"NextViewController" bundle:nil];
     next.image = saveImage;
     [self.navigationController pushViewController:next animated:YES];

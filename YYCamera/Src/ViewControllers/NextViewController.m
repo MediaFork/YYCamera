@@ -21,6 +21,18 @@
     self.imageView.image = self.image;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    self.navigationController.navigationBarHidden = YES;
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+    self.navigationController.navigationBarHidden = NO;
+}
+
 - (IBAction)saveBtnAction:(id)sender
 {
     UIImageWriteToSavedPhotosAlbum(self.image, self,
@@ -35,6 +47,11 @@
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"成功保存到相册" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
         [alert show];
     }
+}
+
+- (IBAction)goBack:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -106,4 +106,17 @@
     return image;
 }
 
+//图片裁剪,如果superImage是两倍图大小，然后你又想截取特定区域，subImageSize一般都为subImageRect.size,subImageRect可能都要乘以2，如果superImage不是两倍图大小，可能就不乘2.
++ (UIImage *)getImageFromImage:(UIImage*) superImage subImageSize:(CGSize)subImageSize subImageRect:(CGRect)subImageRect
+{
+    CGImageRef imageRef = superImage.CGImage;
+    CGImageRef subImageRef = CGImageCreateWithImageInRect(imageRef, subImageRect);
+    UIGraphicsBeginImageContext(subImageSize);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextDrawImage(context, subImageRect, subImageRef);
+    UIImage* returnImage = [UIImage imageWithCGImage:subImageRef];
+    UIGraphicsEndImageContext(); //返回裁剪的部分图像
+    return returnImage;
+}
+
 @end

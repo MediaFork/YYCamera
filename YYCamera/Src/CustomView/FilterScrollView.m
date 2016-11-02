@@ -72,7 +72,7 @@
         });
         
     }
-    self.contentWidth = MAX(left, self.width + 1);
+    self.contentWidth = MAX(left, self.width*2);
 }
 
 -(void)setOriginalImage:(UIImage *)originalImage{
